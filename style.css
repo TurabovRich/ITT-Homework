@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #a09a9a;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    padding: 10px 20px 0 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.classes, .movies, .moods, .facts {
+    margin-bottom: 25px;
+}
+
+.gray {
+    color: black;
+    padding-bottom: 20px;
+} 
+
+h4 {
+    padding-top: 20px;
+}
+
+.linespace {
+    margin-top: 20px;
+    background: black;
+    height: 2px;    
+}
+
+.yellow {
+    color: yellow;
+}
+
+.circle-list {
+    margin-left: 30px;
+    list-style-type: disc;
+    margin-top: 10px;
+}
+
+.decimal-list {
+    margin-left: 30px;
+    list-style-type: decimal;
+    margin-top: 10px;
+}   
+
+.moods-list {
+    margin-top: 10px;
+    display: flex;
+}
